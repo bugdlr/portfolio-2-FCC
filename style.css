@@ -3,6 +3,7 @@
   padding: 0;
   width: 100%;
   box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
   font-size: 20px;
   text-align: center;
   color: #4f372d;
@@ -54,7 +55,7 @@ h2 {
 }
 
 .project-grid {
-  width: 50%;
+  max-width: 1000px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
@@ -62,10 +63,22 @@ h2 {
   margin: 0 auto;
 }
 
+.project-grid  img {
+  margin: 0;
+  height: 242px;
+}
+
+.project-grid p {
+  background-color: #bcd2d0;
+  padding: 10px;
+  margin-top: -5px;
+  border-top: 1px solid #4f372d;
+}
+
 .project-tile {
-  height: 200px;
-  width: 200px;
-  border: 1px solid black;
+  width: 400px;
+  height: 288px;
+  border: 1px solid #4f372d;
   margin: 0 auto;
 }
 
